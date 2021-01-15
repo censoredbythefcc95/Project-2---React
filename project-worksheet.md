@@ -1,4 +1,4 @@
-# Project Overview
+# Steve's Weather Application - Overview
 
 ## Project Links
 
@@ -7,25 +7,36 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I will be building an application with React Router that will allow users to search weather information via zipcode or city. Users can input a desired ZIP Code or city, and the application will display the following elements:
 
-To be announced. 
+- Current Temperature
+- Expected High
+- Expected Low
+- Probability of precipitation (%)
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+I will be implementing an open source API from Weatherstack to pull information regarding weather into this application. 
 
-To be announced. 
 
 
 ```
-{data: {} }
+"location": {
+        "name": "New York",
+        "country": "United States of America",
+        "region": "New York",
+        "lat": "40.714",
+        "lon": "-74.006",
+        "timezone_id": "America/New_York",
+        "localtime": "2019-09-07 08:14",
+        "localtime_epoch": 1567844040,
+        "utc_offset": "-4.0"
 ```
 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
+Here are the official wireframes for my weather application. The first link is the basic wireframe on the appearance of the application. The second link is the architecture framework for my React components.
 
 - [add link to your wireframes]()
 - [add link to your react architecture]()
@@ -65,14 +76,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+I will probably use the following libraries and frameworks:
+
+- React
+- React Router
+- SASS/SCSS
+- Bootstrap
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+Insert Code Here
 }
 ```
