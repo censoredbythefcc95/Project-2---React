@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [https://github.com/censoredbythefcc95/Project-2---React.git]()
-- [add your deployment link]()
+- [GitHub Link](https://github.com/censoredbythefcc95/Project-2---React.git)
+- [Official Link](https://happy-golick-61a260.netlify.app/)
 
 ## Project Description
 
@@ -84,15 +84,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Initializing framework/app | H | 3rs| rs | hrs |
-| Testing API | H | hrs| hrs | hrs |
-| Building Components | H | hrs| hrs | hrs |
-|  | H | 6hrs| 5hrs | hrs |
-| API component | H | hrs| hrs | hrs |
-| Testing data pull from API | H | hrs| hrs | hrs |
-| CSS Styling | M | hrs| hrs | hrs |
-| Double-checking State | H | hrs| hrs | hrs |
-| Total | H | hrs| hrs | hrs |
+| Initializing framework/app | H | 30mins| 20mins | 20mins |
+| Testing API | H | 20mins| 20mins | 20mins |
+| Building Components | H | 6hrs| hrs | hrs |
+| API component | H | 5hrs| hrs | hrs |
+| Rendering data pull from API | H | 5hrs| hrs | hrs |
+| CSS Styling | M | 6hrs| hrs | hrs |
+| Double-checking State | H | 5hrs| hrs | hrs |
+| Total | H | 27.5hrs| hrs | hrs |
 
 
 ## Additional Libraries
@@ -108,6 +107,5 @@ I will probably use the following libraries and frameworks:
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-Insert Code Here
-}
+const url = await fetch(url)
 ```
