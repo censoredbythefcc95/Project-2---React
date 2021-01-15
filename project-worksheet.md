@@ -38,8 +38,8 @@ I will be implementing an open source API from Weatherstack to pull information 
 
 Here are the official wireframes for my weather application. The first link is the basic wireframe on the appearance of the application. The second link is the architecture framework for my React components.
 
-- [https://imgur.com/a/8EBSU49]()
-- [add link to your react architecture]()
+- [https://i.imgur.com/cnm9AeE.png]()
+- [https://docs.google.com/drawings/d/11FJsXy7JUS9SXzZjLXQqM6oizeMrJBlcIJNd5Bk4Pss/edit?usp=sharing]()
 
 
 ### MVP/PostMVP - 5min
