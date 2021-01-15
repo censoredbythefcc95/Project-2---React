@@ -38,42 +38,62 @@ I will be implementing an open source API from Weatherstack to pull information 
 
 Here are the official wireframes for my weather application. The first link is the basic wireframe on the appearance of the application. The second link is the architecture framework for my React components.
 
-- [https://i.imgur.com/cnm9AeE.png]()
-- [https://docs.google.com/drawings/d/11FJsXy7JUS9SXzZjLXQqM6oizeMrJBlcIJNd5Bk4Pss/edit?usp=sharing]()
+- [Wireframe for Weather App](https://i.imgur.com/cnm9AeE.png)
+- [React Architecture](https://docs.google.com/drawings/d/11FJsXy7JUS9SXzZjLXQqM6oizeMrJBlcIJNd5Bk4Pss/edit?usp=sharing)
 
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+MVP - Project 2 Requirements per the GA Project Worksheet  
 
 #### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
+- Be a working, interactive, React application.
+- Include data from a third-party API
+- Include React Router with at least 2 routes
+- Have at least 5 separate components, using a readable file structure.
+- Be built using Create React App.
+- Built mobile first
+- Implement responsive design using flexbox, grid, or another css framework.
+- Use React Hooks
+- Be deployed via Netlify.
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Add styling to make the weather application look appealing to the user.
+- Add additonal components if time permits.
+- Add Javascript animations to the application. 
 
 ## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
+##### Not official yet. Pending project approval. 1/15/2021 3:12pm EST
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
+Initial components decided for Project. 
 
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Dashboard | This will hold the search bar and other components. | 
+| Landing Text | Text that appears when user arrives on app. | 
+| Search Bar | Allows user to input zip code or city to find the forecast. |
+| Location | Renders location that user searched for. |
+| Current Temperature | Renders current temperature for city selected. |
+| High/Low | Renders high and low for city. |
+| Footer | Contains footer text with creator.|
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Initializing framework/app | H | 3rs| rs | hrs |
+| Testing API | H | hrs| hrs | hrs |
+| Building Components | H | hrs| hrs | hrs |
+|  | H | 6hrs| 5hrs | hrs |
+| API component | H | hrs| hrs | hrs |
+| Testing data pull from API | H | hrs| hrs | hrs |
+| CSS Styling | M | hrs| hrs | hrs |
+| Double-checking State | H | hrs| hrs | hrs |
+| Total | H | hrs| hrs | hrs |
+
 
 ## Additional Libraries
 I will probably use the following libraries and frameworks:
