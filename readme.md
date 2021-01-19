@@ -14,6 +14,21 @@ I will be building an application with React Router that will allow users to sea
 - Expected Low
 - Probability of precipitation (%)
 
+## Project Completion status
+
+| Project Phase | Status/Notes | 
+| --- | :---: |  
+| Project Approval | Complete / Approved as of friday 1/15/2021 4:30PM EST| 
+| Initial API Selection and Testing | Complete / Test fromweatherstack was successful. | 
+| Rendering components to app.js | In Progress / Components rendered but still working on proper architecture. | 
+| Determine and add State hooks | Not Started |
+| Add additional hooks for context/states | Not started |
+| Pass information through props | Not started. |
+| CSS Styling | Not started. |
+
+
+
+
 ## API
 
 I will be implementing an open source API from Weatherstack to pull information regarding weather into this application. 
@@ -64,7 +79,7 @@ MVP - Project 2 Requirements per the GA Project Worksheet
 - Add Javascript animations to the application. 
 
 ## Components
-##### Not official yet. Pending project approval. 1/15/2021 3:12pm EST
+##### Project approved as of Friday 1/15/2021 at 4:30PM EST. Construction in progress.
 
 Initial components decided for Project. 
 
