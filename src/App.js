@@ -1,6 +1,6 @@
 import React from "react";
 //Importing Router features
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 //Components being rendered into app.js
 import './App.css';
@@ -12,12 +12,14 @@ function App() {
   return (
     <div className="App">
       <SearchBar />
-      <Route path="/">
+      <Switch>
+      <Route exact path="/">
         <LandingText />
       </Route>
       <Route path="/weather">
         <MainDisplay />
       </Route>
+      </Switch>
 
 
       
