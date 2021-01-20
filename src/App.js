@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState }  from "react";
 //Importing Router features
 import { Route, Switch } from "react-router-dom";
 
@@ -8,7 +8,13 @@ import LandingText from "./components/LandingText";
 import MainDisplay from "./components/MainDisplay";
 import SearchBar from "./components/SearchBar";
 
-function App() {
+function App(props) {
+  const [weather, setWeather] = useState({});
+
+
+
+
+
   return (
     <div className="App">
       <SearchBar />
