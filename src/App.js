@@ -22,7 +22,8 @@ const handleSubmit =  async (e) => {
     setWeather(checkweather);
     console.log(weather);
 
-    props.history.push("/weather")
+    //props history push causing a typerror. Consult with team lead tomorrow
+
 }
 
 
