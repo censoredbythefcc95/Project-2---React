@@ -10,20 +10,32 @@ import SearchBar from "./components/SearchBar";
 
 function App(props) {
   const [weather, setWeather] = useState({});
+  const [zip, setZip] = useState("");
 
 
+const handleSubmit =  async (e) => {
+  e.preventDefault();
+
+    const data = `http://api.weatherstack.com/current?access_key=b5e736ba37400f6d38f6cea5ec87816f&query=${zip}`;
+    const response = await fetch(data);
+    const checkweather = await response.json();
+    setWeather(checkweather);
+    console.log(weather);
+
+    props.history.push("/weather")
+}
 
 
 
   return (
     <div className="App">
-      <SearchBar />
+      <SearchBar setZip={setZip} zip={zip} handleSubmit={handleSubmit} />
       <Switch>
       <Route exact path="/">
         <LandingText />
       </Route>
       <Route path="/weather">
-        <MainDisplay />
+        <MainDisplay weather={weather} />
       </Route>
       </Switch>
 
