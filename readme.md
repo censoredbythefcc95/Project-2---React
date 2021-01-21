@@ -20,9 +20,9 @@ I will be building an application with React Router that will allow users to sea
 | --- | :---: |  
 | Project Approval | Complete / Approved as of friday 1/15/2021 4:30PM EST| 
 | Initial API Selection and Testing | Complete / Test fromweatherstack was successful. | 
-| Rendering components to app.js | In Progress / Components rendered but still working on proper architecture. | 
-| Determine and add State hooks | In Progress / initial states for the Searchbar Component have been set. |
-| Add additional hooks for context/states | In Progress / Finalizing state. |
+| Rendering components to app.js | Complete/ All components rendered with proper architecture. | 
+| Determine and add State hooks | Complete / useState and Effect hooks in active use for handing state to MainDisplay. |
+| Add additional hooks for context/states | Complete / No additional hooks needed at this time. |
 | Pass information through props | In Progress / Successfully passed API fetch through app.js. |
 | CSS Styling | Not started. / Final phase of project. DO NOT THINK ABOuT STYLING UNTIL MVP IS MET. |
 
@@ -101,11 +101,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Initializing framework/app | H | 30mins| 20mins | 20mins |
 | Testing API | H | 20mins| 20mins | 20mins |
-| Building Components | H | 6hrs| 4hrs | 4hrs |
-| API component | H | 5hrs| 3hrs | hrs |
-| Rendering data pull from API | H | 5hrs| 1hrs | hrs |
+| Building Components | H | 6hrs| 4.5hrs | 4.5hrs |
+| API component | H | 5hrs| 3.5hrs | 3.5hrs |
+| Rendering data pull from API | H | 5hrs| 2hrs | hrs |
 | CSS Styling | M | 6hrs| hrs | hrs |
-| Double-checking State | H | 5hrs| 2hrs | hrs |
+| Double-checking State | H | 5hrs| 3hrs | 3hrs |
 | Total | H | 27.5hrs| hrs | hrs |
 
 
