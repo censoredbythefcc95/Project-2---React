@@ -11,6 +11,7 @@ const MainDisplay = () => {
             <Location />
             <CurrentTemperature />
             <HighLow />
+            <h3>child components test</h3>
         </div>
     )
 }
