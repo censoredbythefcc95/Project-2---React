@@ -16,7 +16,7 @@ function App(props) {
 const handleSubmit =  async (e) => {
   e.preventDefault();
 
-    const data = `http://api.weatherstack.com/current?access_key=b5e736ba37400f6d38f6cea5ec87816f&query=${zip}&units=f`;
+    const data = `https://api.weatherstack.com/current?access_key=b5e736ba37400f6d38f6cea5ec87816f&query=${zip}&units=f`;
     const response = await fetch(data);
     const checkweather = await response.json();
     setWeather(checkweather);

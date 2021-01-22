@@ -8,7 +8,6 @@ const SearchBar = (props) => {
 
     return (
         <div className="search-bar">
-            <h3>This is the Searchbar Component. </h3>
             <form onSubmit={props.handleSubmit}>
                 <input type="text"
                        placeholder="Enter City/ZIP Code"
