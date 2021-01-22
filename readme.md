@@ -10,21 +10,21 @@
 I will be building an application with React Router that will allow users to search weather information via zipcode or city. Users can input a desired ZIP Code or city, and the application will display the following elements:
 
 - Current Temperature
-- Expected High
-- Expected Low
-- Probability of precipitation (%)
+- Visibility
+- Sky Conditions
+- Time last updated/etc
 
 ## Project Completion status
 
 | Project Phase | Status/Notes | 
 | --- | :---: |  
 | Project Approval | Complete / Approved as of friday 1/15/2021 4:30PM EST| 
-| Initial API Selection and Testing | Complete / Test fromweatherstack was successful. | 
-| Rendering components to app.js | Complete/ All components rendered with proper architecture. | 
-| Determine and add State hooks | Complete / useState and Effect hooks in active use for handing state to MainDisplay. |
-| Add additional hooks for context/states | Complete / No additional hooks needed at this time. |
-| Pass information through props | Complete / Successfully passed API fetch through app.js. |
-| CSS Styling | In Progress / Final phase of project. DO NOT THINK ABOuT STYLING UNTIL MVP IS MET. |
+| Initial API Selection and Testing | Complete - Test fromweatherstack was successful. | 
+| Rendering components to app.js | Complete - All components rendered with proper architecture. | 
+| Determine and add State hooks | Complete - useState and Effect hooks in active use for handing state to MainDisplay. |
+| Add additional hooks for context/states | Complete - No additional hooks needed at this time. |
+| Pass information through props | Complete - Successfully passed API fetch through app.js. |
+| CSS Styling | In Progress - Navbar complete. Working on colors and other component styling. |
 
 
 
@@ -80,7 +80,7 @@ MVP - Project 2 Requirements per the GA Project Worksheet
 
 ## Components
 ##### Project approved as of Friday 1/15/2021 at 4:30PM EST. Construction in progress.
-
+##### Project has met MVP standards 1/22/2021. Styling and additional components pending. 
 Initial components decided for Project. 
 
 | Component | Description | 
@@ -104,7 +104,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Building Components | H | 6hrs| 4.5hrs | 4.5hrs |
 | API component | H | 5hrs| 3.5hrs | 3.5hrs |
 | Rendering data pull from API | H | 5hrs| 4hrs | 4hrs |
-| CSS Styling | M | 6hrs| 1hrs | hrs |
+| CSS Styling | M | 6hrs| 3hrs | hrs |
 | Double-checking State | H | 5hrs| 3hrs | 3hrs |
 | Total | H | 27.5hrs| hrs | hrs |
 
