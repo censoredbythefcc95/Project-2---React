@@ -3,7 +3,7 @@
 ## Project Links
 
 - [GitHub Link](https://github.com/censoredbythefcc95/Project-2---React.git)
-- [Official Link](https://happy-golick-61a260.netlify.app/)
+- [Official Link](https://stevesweatherapp.netlify.app/)
 
 ## Project Description
 
