@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const About = () => {
     return (
     <div className="about">
@@ -8,7 +9,7 @@ const About = () => {
                 of the United States! All you have to do is enter your ZIP Code
                 (5 digits only) and this application will return live weather data such as:
             </p>
-                <ul>
+                <ul className="about-ul">
                     <li>Current Temperature</li>
                     <li>Feels like</li>
                     <li>Sky Condition</li>

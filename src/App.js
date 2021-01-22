@@ -9,6 +9,7 @@ import MainDisplay from "./components/MainDisplay";
 import SearchBar from "./components/SearchBar";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+
 //Setting our State in function App
 function App(props) {
   const [weather, setWeather] = useState({});

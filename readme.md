@@ -24,7 +24,7 @@ I will be building an application with React Router that will allow users to sea
 | Determine and add State hooks | Complete - useState and Effect hooks in active use for handing state to MainDisplay. |
 | Add additional hooks for context/states | Complete - No additional hooks needed at this time. |
 | Pass information through props | Complete - Successfully passed API fetch through app.js. |
-| CSS Styling | In Progress - Navbar complete. Working on colors and other component styling. |
+| CSS Styling | Complete - Navbar complete. Final styling complete. |
 
 
 
@@ -62,25 +62,26 @@ Here are the official wireframes for my weather application. The first link is t
 MVP - Project 2 Requirements per the GA Project Worksheet  
 
 #### MVP EXAMPLE
-- Be a working, interactive, React application.
-- Include data from a third-party API
-- Include React Router with at least 2 routes
-- Have at least 5 separate components, using a readable file structure.
-- Be built using Create React App.
-- Built mobile first
-- Implement responsive design using flexbox, grid, or another css framework.
-- Use React Hooks
-- Be deployed via Netlify.
+- Be a working, interactive, React application. ✔
+- Include data from a third-party API ✔
+- Include React Router with at least 2 routes ✔
+- Have at least 5 separate components, using a readable file structure. ✔
+- Be built using Create React App. ✔
+- Built mobile first. ✔
+- Implement responsive design using flexbox, grid, or another css framework. ✔
+- Use React Hooks. ✔
+- Be deployed via Netlify. ✔
 
 #### PostMVP EXAMPLE
 
-- Add styling to make the weather application look appealing to the user.
-- Add additonal components if time permits.
+- Add styling to make the weather application look appealing to the user. ✔
+- Add additonal components if time permits. ✔
 - Add Javascript animations to the application. 
 
 ## Components
 ##### Project approved as of Friday 1/15/2021 at 4:30PM EST. Construction in progress.
 ##### Project has met MVP standards 1/22/2021. Styling and additional components pending. 
+##### Project complete as of 1/22/2021 1:27PM EST.
 Initial components decided for Project. 
 
 | Component | Description | 
@@ -104,9 +105,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Building Components | H | 6hrs| 4.5hrs | 4.5hrs |
 | API component | H | 5hrs| 3.5hrs | 3.5hrs |
 | Rendering data pull from API | H | 5hrs| 4hrs | 4hrs |
-| CSS Styling | M | 6hrs| 3hrs | hrs |
+| CSS Styling | M | 6hrs| 5hrs | 5hrs |
 | Double-checking State | H | 5hrs| 3hrs | 3hrs |
-| Total | H | 27.5hrs| hrs | hrs |
+| Total | H | 27.5hrs| 21hrs | 21hrs |
 
 
 ## Additional Libraries
