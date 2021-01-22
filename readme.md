@@ -23,8 +23,8 @@ I will be building an application with React Router that will allow users to sea
 | Rendering components to app.js | Complete/ All components rendered with proper architecture. | 
 | Determine and add State hooks | Complete / useState and Effect hooks in active use for handing state to MainDisplay. |
 | Add additional hooks for context/states | Complete / No additional hooks needed at this time. |
-| Pass information through props | In Progress / Successfully passed API fetch through app.js. |
-| CSS Styling | Not started. / Final phase of project. DO NOT THINK ABOuT STYLING UNTIL MVP IS MET. |
+| Pass information through props | Complete / Successfully passed API fetch through app.js. |
+| CSS Styling | In Progress / Final phase of project. DO NOT THINK ABOuT STYLING UNTIL MVP IS MET. |
 
 
 
@@ -91,7 +91,7 @@ Initial components decided for Project.
 | Search Bar | Allows user to input zip code or city to find the forecast. |
 | Location | Renders location that user searched for. |
 | Current Temperature | Renders current temperature for city selected. |
-| High/Low | Renders high and low for city. |
+| High/Low | Renders additional information about weather for city of choice. |
 | Footer | Contains footer text with creator.|
 
 
@@ -103,8 +103,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Testing API | H | 20mins| 20mins | 20mins |
 | Building Components | H | 6hrs| 4.5hrs | 4.5hrs |
 | API component | H | 5hrs| 3.5hrs | 3.5hrs |
-| Rendering data pull from API | H | 5hrs| 2hrs | hrs |
-| CSS Styling | M | 6hrs| hrs | hrs |
+| Rendering data pull from API | H | 5hrs| 4hrs | 4hrs |
+| CSS Styling | M | 6hrs| 1hrs | hrs |
 | Double-checking State | H | 5hrs| 3hrs | 3hrs |
 | Total | H | 27.5hrs| hrs | hrs |
 
