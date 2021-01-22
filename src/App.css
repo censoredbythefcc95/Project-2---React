@@ -1,11 +1,44 @@
 .App {
   text-align: center;
   background-color:  rgb(4, 14, 156);
-  padding: 120px 0 900px;
   color: white;
+  height: 100vh;
 }
 
-@media (min-width: 472px) {
+.container {
+  background-color: black;
+}
+
+.nav-bar {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container li a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  }
+
+.container ul, .container li {
+  list-style: none;
+  }
+
+  input[type="text"] {
+    background-color:black;
+  }
+
+
+@media (min-width: 840px) {
 .MainDisplay {
   background-color: rgb(156, 78, 4);
   margin: 300px;
@@ -17,21 +50,26 @@
   width: 100%;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
 }
 
 .container {
   display: flex;
-  justify-content: flex-end;
-  background-color: black;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: -120px;
+  justify-content: space-between;
 }
 
 .container li a {
-  list-style-type: none;
   text-decoration: none;
+  color: white;
+  margin: 0 10px;
   }
+
+.container ul, .container li {
+  list-style: none;
+  }
+
 }
 
 
