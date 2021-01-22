@@ -4,14 +4,12 @@ import Location from "./Location";
 import CurrentTemperature from "./CurrentTemperature";
 import HighLow from "./HighLow";
 
-const MainDisplay = () => {
+const MainDisplay = (props) => {
     return (
         <div className="MainDisplay">
-            <h3>This is the Main Display Component</h3>
-            <Location />
-            <CurrentTemperature />
-            <HighLow />
-            <h3>child components test</h3>
+            {props.weather.location ?<Location weather={props.weather} /> : ""}
+            {props.weather.current ? <CurrentTemperature weather={props.weather} /> : ""}
+            {props.weather.current ? <HighLow weather={props.weather} /> : ""}
         </div>
     )
 }

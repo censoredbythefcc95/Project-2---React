@@ -1,9 +1,9 @@
 import React from "react";
 
-const CurrentTemperature = () => {
+const CurrentTemperature = (props) => {
     return (
         <div>
-            <h3>This is the CurrentTemperatures Component.</h3>
+            <h3> Current Temperature: {props.weather.current.temperature} F</h3>
         </div>
     )
 }

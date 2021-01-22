@@ -1,9 +1,9 @@
 import React from "react";
 
-const Location = () => {
+const Location = (props) => {
     return (
         <div>
-            <h3>This is the Location Component.</h3>
+            <h3>{props.weather.location.name}, {props.weather.location.region} </h3>
         </div>
     )
 }

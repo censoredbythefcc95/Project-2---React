@@ -1,9 +1,11 @@
 import React from "react";
 
-const LandingText = () => {
+const LandingText = (props) => {
     return (
         <div>
-            <h3>This is the LandingText Component.</h3>
+            <h3>Welcome! Enter your ZIP Code to check live weather in your area.
+            </h3>
+            <h5>Live weather data provided by weatherstack.com</h5>
         </div>
     )
 }
