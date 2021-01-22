@@ -8,6 +8,7 @@ import LandingText from "./components/LandingText";
 import MainDisplay from "./components/MainDisplay";
 import SearchBar from "./components/SearchBar";
 import NavBar from "./components/NavBar";
+import About from "./components/About";
 //Setting our State in function App
 function App(props) {
   const [weather, setWeather] = useState({});
@@ -43,6 +44,9 @@ const handleSubmit =  async (e) => {
       </Route>
       <Route path="/weather">
         <MainDisplay weather={weather} />
+      </Route>
+      <Route path="/about">
+      <About />
       </Route>
       </Switch>
 

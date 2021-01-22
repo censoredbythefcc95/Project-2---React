@@ -35,12 +35,13 @@
 
   input[type="text"] {
     background-color:black;
+    color: white;
   }
 
 
 @media (min-width: 840px) {
 .MainDisplay {
-  background-color: rgb(156, 78, 4);
+  background-color: rgb(19, 6, 77);
   margin: 300px;
   padding-top: 50px;
   padding-bottom: 50px;
