@@ -7,6 +7,7 @@ import './App.css';
 import LandingText from "./components/LandingText";
 import MainDisplay from "./components/MainDisplay";
 import SearchBar from "./components/SearchBar";
+import NavBar from "./components/NavBar";
 //Setting our State in function App
 function App(props) {
   const [weather, setWeather] = useState({});
@@ -34,6 +35,7 @@ const handleSubmit =  async (e) => {
 
   return (
     <div className="App">
+      <NavBar />
       <SearchBar setZip={setZip} zip={zip} handleSubmit={handleSubmit} />
       <Switch>
       <Route exact path="/">

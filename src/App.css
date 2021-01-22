@@ -1,11 +1,40 @@
 .App {
   text-align: center;
   background-color:  rgb(4, 14, 156);
-  padding: 120px 0 800px;
+  padding: 120px 0 900px;
   color: white;
 }
 
+@media (min-width: 472px) {
 .MainDisplay {
-  background-color: rgb(4, 14, 156);
+  background-color: rgb(156, 78, 4);
+  margin: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+.nav-bar {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -120px;
+}
+
+.container li a {
+  list-style-type: none;
+  text-decoration: none;
+  }
+}
+
+
+
+
 
